@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { ThemeProvider } from './components/ThemeProvider';
 import { Navigation } from './components/Navigation';
 import { HeroSection } from './sections/HeroSection';
@@ -23,6 +24,7 @@ function App() {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </ThemeProvider>
   );
 }
